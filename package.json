@@ -1,0 +1,17 @@
+{
+  "name": "bc-studio",
+  "version": "1.0.0",
+  "description": "BC Studio - Web & AI Solutions",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": ["web", "ai", "chatbot", "automation"],
+  "author": "Bartek",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {}
+}
